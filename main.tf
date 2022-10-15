@@ -1,9 +1,7 @@
-resource "aws_s3_bucket"
-{
-    bucket   = "sadaf"
-    tags     =
-    {
-        Name  = "subrat1"
+resource "aws_s3_bucket" "first_bucket"  {
+    bucket = "Qtdevops"
+    tags = {
+            Name        = "My bucket from tf"
+            Environment = "Dev1"
     }
-   
 }
