@@ -8,7 +8,7 @@ resource "aws_s3_bucket"{
 }
 
 resource "aws_vpc_" "my_vpc"{
-    cidr_block     = "192.168.0.0/16"
+    cidr_block     = ["192.168.0.0/16"]
     tags           =
     {
         
