@@ -1,5 +1,5 @@
 resource "aws_s3_bucket"{
-    busket = "sadaf"
+    bucket = "sadaf"
 }
 
 resource "aws_vpc_" "my_vpc"{
