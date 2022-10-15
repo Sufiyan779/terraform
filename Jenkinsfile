@@ -5,8 +5,8 @@ pipeline{
         {
             steps
             {
-                git url: 'git@github.com:Sufiyan779/terrform.git',
-                branch: 'main'
+                git url: 'https://github.com/Sufiyan779/terraform.git',
+                branch: 'master'
             }
         }
         stage ('build')
