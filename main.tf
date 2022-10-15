@@ -12,6 +12,6 @@ resource "aws_vpc_" "my_vpc"{
     tags           =
     {
         
-        Name      = "terrafrom"
+        "Name"     = "terrafrom"
     }    
 }
